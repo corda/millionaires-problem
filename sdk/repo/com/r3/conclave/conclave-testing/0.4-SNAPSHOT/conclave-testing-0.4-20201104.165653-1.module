@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "conclave-testing",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-enclave",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-host",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-testing-0.4-SNAPSHOT.jar",
+          "url": "conclave-testing-0.4-SNAPSHOT.jar",
+          "size": 23036,
+          "sha512": "7616f95d09cc223e4e73ca6e77bf09a6d30b8d0abd6c7407b08a5a26faff313e9caf2762d622a75b3ed0747ab75f9e031d4a1949293a5ca36c652458ec9398b8",
+          "sha256": "176e4f6f69822a83609f7137d4f48dee1fa534043101042cc07045ff32e6f67a",
+          "sha1": "3a58d5ee804bceaacee842f9af915b37bf64a4b5",
+          "md5": "8ab47aaec872366b8d5cf075e8e208ba"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-enclave",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-host",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-testing-0.4-SNAPSHOT.jar",
+          "url": "conclave-testing-0.4-SNAPSHOT.jar",
+          "size": 23036,
+          "sha512": "7616f95d09cc223e4e73ca6e77bf09a6d30b8d0abd6c7407b08a5a26faff313e9caf2762d622a75b3ed0747ab75f9e031d4a1949293a5ca36c652458ec9398b8",
+          "sha256": "176e4f6f69822a83609f7137d4f48dee1fa534043101042cc07045ff32e6f67a",
+          "sha1": "3a58d5ee804bceaacee842f9af915b37bf64a4b5",
+          "md5": "8ab47aaec872366b8d5cf075e8e208ba"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "embedded",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "conclave-testing-0.4-SNAPSHOT.jar",
+          "url": "conclave-testing-0.4-SNAPSHOT.jar",
+          "size": 23036,
+          "sha512": "7616f95d09cc223e4e73ca6e77bf09a6d30b8d0abd6c7407b08a5a26faff313e9caf2762d622a75b3ed0747ab75f9e031d4a1949293a5ca36c652458ec9398b8",
+          "sha256": "176e4f6f69822a83609f7137d4f48dee1fa534043101042cc07045ff32e6f67a",
+          "sha1": "3a58d5ee804bceaacee842f9af915b37bf64a4b5",
+          "md5": "8ab47aaec872366b8d5cf075e8e208ba"
+        }
+      ]
+    }
+  ]
+}

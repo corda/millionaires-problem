@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "native-enclave-debug",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "native-enclave-debug-0.4-SNAPSHOT.jar",
+          "url": "native-enclave-debug-0.4-SNAPSHOT.jar",
+          "size": 39010897,
+          "sha512": "623d99891c6dc4e15ad35fcd39093970e2c62a28ac82454faa85fbfead8a4cb3bdec84680ada73d6ab9ed89908c1d8f4c3e62d6ecafa434ec9491c36c377fda6",
+          "sha256": "2aba741d07d32c2572a144d383b54192875a61b7bbcf62607f60275ebaadc380",
+          "sha1": "a10e5f33423130430b606f56313cbb53b0c45b26",
+          "md5": "e92ed64929447d11e6a3a6b15574570d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-enclave-debug-0.4-SNAPSHOT.jar",
+          "url": "native-enclave-debug-0.4-SNAPSHOT.jar",
+          "size": 39010897,
+          "sha512": "623d99891c6dc4e15ad35fcd39093970e2c62a28ac82454faa85fbfead8a4cb3bdec84680ada73d6ab9ed89908c1d8f4c3e62d6ecafa434ec9491c36c377fda6",
+          "sha256": "2aba741d07d32c2572a144d383b54192875a61b7bbcf62607f60275ebaadc380",
+          "sha1": "a10e5f33423130430b606f56313cbb53b0c45b26",
+          "md5": "e92ed64929447d11e6a3a6b15574570d"
+        }
+      ]
+    }
+  ]
+}

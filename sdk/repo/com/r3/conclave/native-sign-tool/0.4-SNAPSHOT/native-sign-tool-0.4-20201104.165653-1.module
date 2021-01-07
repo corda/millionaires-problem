@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "native-sign-tool",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "native-sign-tool-0.4-SNAPSHOT.jar",
+          "url": "native-sign-tool-0.4-SNAPSHOT.jar",
+          "size": 4289103,
+          "sha512": "393f6b4da5f68e32f07899106f47215553b37747a642629afa9764a2067e5f6c7c8876573ba2314198d110b6a840325431b6e02ff0ea79a0da419e052cb6a667",
+          "sha256": "1c1593a96f0b3f2057209cb162e8394a7fb266c7b34e4515627f308bccd76fe0",
+          "sha1": "c7daa3275eb483bedcbc8fe7b0c9b39c5ac6b5b7",
+          "md5": "bfa4929803ee58e04ab8f63d30b91765"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-sign-tool-0.4-SNAPSHOT.jar",
+          "url": "native-sign-tool-0.4-SNAPSHOT.jar",
+          "size": 4289103,
+          "sha512": "393f6b4da5f68e32f07899106f47215553b37747a642629afa9764a2067e5f6c7c8876573ba2314198d110b6a840325431b6e02ff0ea79a0da419e052cb6a667",
+          "sha256": "1c1593a96f0b3f2057209cb162e8394a7fb266c7b34e4515627f308bccd76fe0",
+          "sha1": "c7daa3275eb483bedcbc8fe7b0c9b39c5ac6b5b7",
+          "md5": "bfa4929803ee58e04ab8f63d30b91765"
+        }
+      ]
+    }
+  ]
+}

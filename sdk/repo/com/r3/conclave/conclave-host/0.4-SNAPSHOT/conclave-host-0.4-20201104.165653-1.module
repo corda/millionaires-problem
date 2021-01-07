@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "conclave-host",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-common",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-host-0.4-SNAPSHOT.jar",
+          "url": "conclave-host-0.4-SNAPSHOT.jar",
+          "size": 101026,
+          "sha512": "fdac6f7ca60e2899afc07aa692b195fa8cd3ab1d9be65ac0ee79f8322569a10515fa2122d32b940bbbdad3a4111d4f2fdf6afc7d4325b35751059c6f9a7f1076",
+          "sha256": "350140484b67815021b6276c726de55b0a0c54b1355c7162de3b65cf32e1dbd0",
+          "sha1": "0f2d1b7afb461b63d18cfbe4973d438af6d4ecc2",
+          "md5": "bfc6a8dabd16ab0ace5b97fc173c6086"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.classgraph",
+          "module": "classgraph",
+          "version": {
+            "requires": "4.8.69"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.26"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-common",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "native-host-release",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "native-host-debug",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "native-host-simulation",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "native-host-shared",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-host-0.4-SNAPSHOT.jar",
+          "url": "conclave-host-0.4-SNAPSHOT.jar",
+          "size": 101026,
+          "sha512": "fdac6f7ca60e2899afc07aa692b195fa8cd3ab1d9be65ac0ee79f8322569a10515fa2122d32b940bbbdad3a4111d4f2fdf6afc7d4325b35751059c6f9a7f1076",
+          "sha256": "350140484b67815021b6276c726de55b0a0c54b1355c7162de3b65cf32e1dbd0",
+          "sha1": "0f2d1b7afb461b63d18cfbe4973d438af6d4ecc2",
+          "md5": "bfc6a8dabd16ab0ace5b97fc173c6086"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "embedded",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "conclave-host-0.4-SNAPSHOT.jar",
+          "url": "conclave-host-0.4-SNAPSHOT.jar",
+          "size": 101026,
+          "sha512": "fdac6f7ca60e2899afc07aa692b195fa8cd3ab1d9be65ac0ee79f8322569a10515fa2122d32b940bbbdad3a4111d4f2fdf6afc7d4325b35751059c6f9a7f1076",
+          "sha256": "350140484b67815021b6276c726de55b0a0c54b1355c7162de3b65cf32e1dbd0",
+          "sha1": "0f2d1b7afb461b63d18cfbe4973d438af6d4ecc2",
+          "md5": "bfc6a8dabd16ab0ace5b97fc173c6086"
+        }
+      ]
+    }
+  ]
+}

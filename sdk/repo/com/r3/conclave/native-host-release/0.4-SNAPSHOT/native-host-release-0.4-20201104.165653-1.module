@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "native-host-release",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "native-host-release-0.4-SNAPSHOT.jar",
+          "url": "native-host-release-0.4-SNAPSHOT.jar",
+          "size": 2982609,
+          "sha512": "61987adfdc5fb392df1c94cb672af6b5d5979d355c48dd928f46fd247856d981bb55aee84707d90ddd9bcfe9a4139f35151b31cf02164022a106696a535b7288",
+          "sha256": "f92f3cfdff16582c0a3c98670540fbe63ad996f48af10f95d38b1363ecb2e082",
+          "sha1": "4a0e3e9eea7b54476554ce64e3639056b694da99",
+          "md5": "971d8dc40ed512ae1fdad24a0ec15ceb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-host-release-0.4-SNAPSHOT.jar",
+          "url": "native-host-release-0.4-SNAPSHOT.jar",
+          "size": 2982609,
+          "sha512": "61987adfdc5fb392df1c94cb672af6b5d5979d355c48dd928f46fd247856d981bb55aee84707d90ddd9bcfe9a4139f35151b31cf02164022a106696a535b7288",
+          "sha256": "f92f3cfdff16582c0a3c98670540fbe63ad996f48af10f95d38b1363ecb2e082",
+          "sha1": "4a0e3e9eea7b54476554ce64e3639056b694da99",
+          "md5": "971d8dc40ed512ae1fdad24a0ec15ceb"
+        }
+      ]
+    }
+  ]
+}

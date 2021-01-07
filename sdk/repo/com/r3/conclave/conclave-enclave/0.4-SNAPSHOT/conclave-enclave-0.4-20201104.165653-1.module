@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "conclave-enclave",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-common",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "url": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "size": 75033,
+          "sha512": "a06726c6b4cffa30f69a7f7f0aed736feaa7a392dd937b13c20e244e9474b747f494351fbb8d3284dd96f67ff6142ebe6dd14d740985de769c89dca3a07bfc1d",
+          "sha256": "5081cc4541d2f91d7973aa05ce4debd908a772af5df937f479b123e9e5685512",
+          "sha1": "2f4bfecb05abab80ff8b207a23b712ddaa68fc93",
+          "md5": "610e48d5b494b36d44010f00af854982"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.graalvm.sdk",
+          "module": "graal-sdk",
+          "version": {
+            "requires": "20.2.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.r3.conclave",
+          "module": "conclave-common",
+          "version": {
+            "requires": "0.4-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "url": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "size": 75033,
+          "sha512": "a06726c6b4cffa30f69a7f7f0aed736feaa7a392dd937b13c20e244e9474b747f494351fbb8d3284dd96f67ff6142ebe6dd14d740985de769c89dca3a07bfc1d",
+          "sha256": "5081cc4541d2f91d7973aa05ce4debd908a772af5df937f479b123e9e5685512",
+          "sha1": "2f4bfecb05abab80ff8b207a23b712ddaa68fc93",
+          "md5": "610e48d5b494b36d44010f00af854982"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "embedded",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "url": "conclave-enclave-0.4-SNAPSHOT.jar",
+          "size": 75033,
+          "sha512": "a06726c6b4cffa30f69a7f7f0aed736feaa7a392dd937b13c20e244e9474b747f494351fbb8d3284dd96f67ff6142ebe6dd14d740985de769c89dca3a07bfc1d",
+          "sha256": "5081cc4541d2f91d7973aa05ce4debd908a772af5df937f479b123e9e5685512",
+          "sha1": "2f4bfecb05abab80ff8b207a23b712ddaa68fc93",
+          "md5": "610e48d5b494b36d44010f00af854982"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "linux-sgx-release",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "linux-sgx-release-0.4-SNAPSHOT.jar",
+          "url": "linux-sgx-release-0.4-SNAPSHOT.jar",
+          "size": 5220491,
+          "sha512": "7ebebd8cc2591cedcedb0bd2e527c4c207cb13ada8c8a4a5aadb1853773c6cbcea0ad0e8870b5067dd90be6ec633db41de6344be1d35a5a6ed1e3334f6b39c19",
+          "sha256": "41f27bf6c867bc67edf46face1201614a6cb267a8f6e657e65d94cbf34c80dcc",
+          "sha1": "ef8d0952905a0e60e1b9b08bd58ad819cc8af62b",
+          "md5": "6f4053250d75b240d932e3bd42c3d36b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "linux-sgx-release-0.4-SNAPSHOT.jar",
+          "url": "linux-sgx-release-0.4-SNAPSHOT.jar",
+          "size": 5220491,
+          "sha512": "7ebebd8cc2591cedcedb0bd2e527c4c207cb13ada8c8a4a5aadb1853773c6cbcea0ad0e8870b5067dd90be6ec633db41de6344be1d35a5a6ed1e3334f6b39c19",
+          "sha256": "41f27bf6c867bc67edf46face1201614a6cb267a8f6e657e65d94cbf34c80dcc",
+          "sha1": "ef8d0952905a0e60e1b9b08bd58ad819cc8af62b",
+          "md5": "6f4053250d75b240d932e3bd42c3d36b"
+        }
+      ]
+    }
+  ]
+}

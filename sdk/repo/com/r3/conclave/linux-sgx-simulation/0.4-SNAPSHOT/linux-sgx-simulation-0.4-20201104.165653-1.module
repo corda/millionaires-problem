@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "linux-sgx-simulation",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "linux-sgx-simulation-0.4-SNAPSHOT.jar",
+          "url": "linux-sgx-simulation-0.4-SNAPSHOT.jar",
+          "size": 7247045,
+          "sha512": "89a65d644fbc94c2e3c2cdb26b68b2fe457588669819d8a2da63dbaf97c51f524d989970a31a3b2772402dfe4c09d6d0b62c26d728b204b592f0d37e156db906",
+          "sha256": "dc726b30bd522531877c40730082f159033eed5d96fd9f24c040957e7d70b92b",
+          "sha1": "754eb712497fc76e527dfe1047c52ad93f2b706c",
+          "md5": "d7a514b699c0223be55cceb9c4d56c4c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "linux-sgx-simulation-0.4-SNAPSHOT.jar",
+          "url": "linux-sgx-simulation-0.4-SNAPSHOT.jar",
+          "size": 7247045,
+          "sha512": "89a65d644fbc94c2e3c2cdb26b68b2fe457588669819d8a2da63dbaf97c51f524d989970a31a3b2772402dfe4c09d6d0b62c26d728b204b592f0d37e156db906",
+          "sha256": "dc726b30bd522531877c40730082f159033eed5d96fd9f24c040957e7d70b92b",
+          "sha1": "754eb712497fc76e527dfe1047c52ad93f2b706c",
+          "md5": "d7a514b699c0223be55cceb9c4d56c4c"
+        }
+      ]
+    }
+  ]
+}

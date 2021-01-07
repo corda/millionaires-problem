@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.r3.conclave",
+    "module": "native-host-debug",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "7wc53zwylzghhj6na2g4ac5nsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "native-host-debug-0.4-SNAPSHOT.jar",
+          "url": "native-host-debug-0.4-SNAPSHOT.jar",
+          "size": 5760735,
+          "sha512": "3eada19efa6f6de40fbe351cadc3ee4a585de41548835e90133853b42df01c2d22f03df790f929d86e711b6cd8d41a99950b3f9cc9db8d81667c6c6fc2a748a3",
+          "sha256": "0f58e79d0f094f93631ed00d479abb30f183afbd21cf0ef6c9607fd8f4fc3fbd",
+          "sha1": "744ec052dce36118daa5af8b4326a7668ce776d7",
+          "md5": "02bd5ee9c3816d26b071b7b4e38927c2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native-host-debug-0.4-SNAPSHOT.jar",
+          "url": "native-host-debug-0.4-SNAPSHOT.jar",
+          "size": 5760735,
+          "sha512": "3eada19efa6f6de40fbe351cadc3ee4a585de41548835e90133853b42df01c2d22f03df790f929d86e711b6cd8d41a99950b3f9cc9db8d81667c6c6fc2a748a3",
+          "sha256": "0f58e79d0f094f93631ed00d479abb30f183afbd21cf0ef6c9607fd8f4fc3fbd",
+          "sha1": "744ec052dce36118daa5af8b4326a7668ce776d7",
+          "md5": "02bd5ee9c3816d26b071b7b4e38927c2"
+        }
+      ]
+    }
+  ]
+}
