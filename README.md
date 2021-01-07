@@ -1,18 +1,18 @@
-## Conclave Sample
+## Millionaires Problem
 
-This is a simple app using the Conclave API. It is licensed under the Apache 2 license, and therefore you may 
-copy/paste it to act as the basis of your own commercial or open source apps.
+TO-DO...
 
 # How to run
 
-Start the host on a Linux system, which will build the enclave and host:
+Start by navigating to a terminal window located on this project's root directory.
 
-```
-./gradlew host:run
-```
-
-It should print out some info about the started enclave. Then you can use the client to send it strings to reverse:
-
-```
-./gradlew client:run --args="reverse me!"
-```
+1. Setup Docker <br />
+    `docker run --name millionaires-problem -p 8080:8080 -it -d -v :/sdk -w /sdk ubuntu bash` <br />
+    `docker exec -ti millionaires-problem apt update`<br />
+    `docker exec -ti millionaires-problem apt install -y openjdk-8-jdk`<br />
+2. From your project root, run the following to build the enclave JAR files. <br />
+    `cd ./host; gradle clean build; cd ../`
+3. Now copy those files to your Docker images <br />
+    `docker cp host/build/libs/host.jar millionaires-problem:/tmp/host.jar`<br />
+4. Start the Host & Enclave
+    `docker exec -ti millionaires-problem java -jar /tmp/host.jar`
