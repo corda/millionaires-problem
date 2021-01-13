@@ -9,6 +9,8 @@ dependencies {
 }
 
 conclave {
+    runtime = avian
+
     productID = 1
     revocationLevel = 0
 

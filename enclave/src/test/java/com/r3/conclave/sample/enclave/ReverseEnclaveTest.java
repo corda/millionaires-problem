@@ -21,7 +21,6 @@ public class ReverseEnclaveTest {
         byte[] response = mockHost.callEnclave("1234".getBytes());
         assertNotNull(response);
         assertEquals("4321", new String(response));
-
         assertEquals("4321", new String(reverseEnclave.previousResult));
     }
 }

@@ -1,5 +1,8 @@
 plugins {
     id 'application'
+    id 'org.springframework.boot' version '2.2.0.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
 }
 
 mainClassName = "com.r3.conclave.sample.host.Host"
@@ -24,6 +27,15 @@ dependencies {
     testImplementation project(":enclave")
     testImplementation "com.r3.conclave:conclave-testing:$conclaveVersion"
     testImplementation "org.junit.jupiter:junit-jupiter:5.6.0"
+
+    implementation "com.r3.conclave:conclave-host"
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+//    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+//        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+//    }
+    compile "com.fasterxml.jackson.module:jackson-module-kotlin:2.11.+"
+    implementation 'com.google.code.gson:gson:2.8.6'
+
 }
 
 test {
@@ -33,4 +45,8 @@ test {
         outputs.upToDateWhen { false }
         showStandardStreams = true
     }
+}
+
+configurations {
+    compile.exclude module: 'spring-boot-starter-logging'
 }
