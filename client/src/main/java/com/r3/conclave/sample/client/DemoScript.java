@@ -30,13 +30,13 @@ public class DemoScript {
                 "http://localhost:" + hostPort + "/ra",
                 "S:4924CA3A9C8241A3C0AA1A24A407AA86401D2B79FA9FF84932DA798A942166D4 PROD:1 SEC:INSECURE");
 
-        // Generate key pairs for Bob & Alice
-        KeyPair bobKey = new Curve25519KeyPairGenerator().generateKeyPair();
-        KeyPair aliceKey = new Curve25519KeyPairGenerator().generateKeyPair();
+        // Generate key pairs
+        KeyPair jeffKey = new Curve25519KeyPairGenerator().generateKeyPair();
+        KeyPair elonKey = new Curve25519KeyPairGenerator().generateKeyPair();
 
         // Send data to the host/enclave
-        submitData(convertSubmitDataToBytes(100, "Bob"), receivedRA, bobKey, sequenceNumber++);
-        submitData(convertSubmitDataToBytes(1000, "Alice"), receivedRA, aliceKey, sequenceNumber++);
+        submitData(convertSubmitDataToBytes(1000000, "Jeff Bezos"), receivedRA, jeffKey, sequenceNumber++);
+        submitData(convertSubmitDataToBytes(2000000, "Elon Musk"), receivedRA, elonKey, sequenceNumber++);
     }
 
     // Takes an amount and name and converts it to a byte array
