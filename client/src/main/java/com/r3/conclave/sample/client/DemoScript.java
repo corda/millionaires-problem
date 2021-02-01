@@ -29,6 +29,7 @@ public class DemoScript {
         EnclaveInstanceInfo receivedRA = getRa(
                 "http://localhost:" + hostPort + "/ra",
                 "S:4924CA3A9C8241A3C0AA1A24A407AA86401D2B79FA9FF84932DA798A942166D4 PROD:1 SEC:INSECURE");
+        System.out.println(receivedRA);
 
         // Generate key pairs
         KeyPair jeffKey = new Curve25519KeyPairGenerator().generateKeyPair();

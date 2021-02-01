@@ -25,9 +25,9 @@ public class HostTest {
     @BeforeAll
     static void startup() throws EnclaveLoadException {
         try {
-            enclave = EnclaveHost.load("com.r3.conclave.sample.enclave.ReverseEnclave");
+            enclave = EnclaveHost.load("com.r3.conclave.sample.enclave.MyEnclave");
         } catch (UnsatisfiedLinkError e) {
-            enclave = MockHost.loadMock(com.r3.conclave.sample.enclave.ReverseEnclave.class);
+            enclave = MockHost.loadMock(com.r3.conclave.sample.enclave.MyEnclave.class);
         }
         // Optionally pass in the SPID and attestation key which are required for remote attestation. These can be null
         // if running in simulation mode, but are required in debug/release mode.

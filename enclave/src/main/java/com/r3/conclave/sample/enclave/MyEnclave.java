@@ -36,7 +36,7 @@ public class MyEnclave extends Enclave {
                 String[] nameArray = map.keySet().toArray(new String[0]);
                 String name1 = nameArray[0];
                 String name2 = nameArray[1];
-                int amt1 = map.get(name1);
+                int amt1 = map.get(name2);
                 int amt2 = map.get(name2);
                 if (amt1 > amt2) System.out.println("Winner: " + name1);
                 if (amt1 < amt2) System.out.println("Winner: " + name2);
@@ -45,17 +45,13 @@ public class MyEnclave extends Enclave {
         }
     }
 
-//    private static HashMap<String, Integer> sortByValueReversed(HashMap<String, Integer> hm) {
-//        List<Map.Entry<String, Integer> > list = new LinkedList<>(hm.entrySet());
-//        Collections.sort(list, new Comparator<Map.Entry<String, Integer> >() {
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-//                return (o1.getValue()).compareTo(o2.getValue());
-//            }
-//        });
-//        Collections.reverse(list);
-//        HashMap<String, Integer> temp = new LinkedHashMap<>();
-//        for (Map.Entry<String, Integer> aa : list) { temp.put(aa.getKey(), aa.getValue()); }
-//        return temp;
-//    }
+    private static HashMap<String, Integer> sortByValueReversed(HashMap<String, Integer> hm) {
+        List<Map.Entry<String, Integer> > list = new LinkedList<>(hm.entrySet());
+        list.sort(Comparator.comparing(Map.Entry::getValue));
+        Collections.reverse(list);
+        HashMap<String, Integer> temp = new LinkedHashMap<>();
+        for (Map.Entry<String, Integer> aa : list) { temp.put(aa.getKey(), aa.getValue()); }
+        return temp;
+    }
 
 }
